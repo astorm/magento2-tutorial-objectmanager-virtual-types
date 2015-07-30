@@ -1,0 +1,25 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="tutorialVirtualType" xsi:type="object">Pulsestorm\TutorialVirtualType\Command\Testbed</item>
+            </argument>
+        </arguments>
+    </type>  
+    
+    <!--
+    <virtualType name="ourVirtualTypeName" type="Pulsestorm\TutorialVirtualType\Model\Argument1">  
+        <arguments>
+            <argument name="the_argument" xsi:type="object">Pulsestorm\TutorialVirtualType\Model\Argument3</argument>
+        </arguments>
+    </virtualType>
+        
+    <type name="Pulsestorm\TutorialVirtualType\Model\Example">
+        <arguments>
+            <argument name="the_object" xsi:type="object">ourVirtualTypeName</argument>
+        </arguments>
+    </type>        
+    -->
+    
+    <!-- warn abou class like names -->
+</config>
