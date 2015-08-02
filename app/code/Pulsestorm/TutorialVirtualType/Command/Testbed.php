@@ -28,8 +28,8 @@ class Testbed extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->output = $output;
-        //$output->writeln("Installed Pulsestorm_TutorialVirtualType!");  
-        $this->showNestedPropertiesForObject();
+        $output->writeln("Installed Pulsestorm_TutorialVirtualType!");  
+        //$this->showNestedPropertiesForObject();
     }
 
     protected function getObjectManager()
